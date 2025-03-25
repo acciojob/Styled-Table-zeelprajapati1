@@ -1,15 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Football League Stats</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f8f9fa;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            border: 1px solid #343a40;
+            padding: 12px;
+            text-align: center;
+        }
+        thead {
+            background-color: #007bff;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #d6e9ff;
+        }
+        tbody tr:hover {
+            background-color: #cfe2ff;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px;
+            color: #343a40;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+    <table>
+        <caption>Football League Statistics</caption>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>Matches Played</th>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Losses</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Manchester City</td>
+                <td>38</td>
+                <td>29</td>
+                <td>6</td>
+                <td>3</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Arsenal</td>
+                <td>38</td>
+                <td>26</td>
+                <td>7</td>
+                <td>5</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Liverpool</td>
+                <td>38</td>
+                <td>24</td>
+                <td>9</td>
+                <td>5</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chelsea</td>
+                <td>38</td>
+                <td>20</td>
+                <td>10</td>
+                <td>8</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
